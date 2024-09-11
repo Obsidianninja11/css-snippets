@@ -1,2 +1,2 @@
-# DiscordThemes
-Discord css snippets for vencord
+# CSS-Snippets
+CSS Snippets mainly for Vencord
