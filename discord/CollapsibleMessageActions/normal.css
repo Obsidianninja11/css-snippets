@@ -1,0 +1,5 @@
+[class^=buttonsInner_]:not(:hover)>:is(
+  [role=button]:not(div:last-of-type), [class^=separator_]
+) {
+  display: none;
+}

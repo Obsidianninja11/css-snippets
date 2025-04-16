@@ -1,0 +1,38 @@
+.visual-refresh section.panels_c48ade {
+  left: calc(var(--custom-guild-list-width));
+  width: calc(100% - var(--custom-guild-list-width));
+  box-sizing: content-box;
+  bottom: 0;
+  border-radius: 0;
+  border-bottom: none;
+  border-right: none;
+
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+  .activityPanel_c48ade {
+    border-radius: inherit;
+  }
+
+  /* GameActivityToggle Fix (delete if you don't use) */
+  /* .container__37e49>.buttons__37e49 {
+    gap: 2px;
+  }
+  .container__37e49>.avatarWrapper__37e49 {
+    min-width: 32px !important;
+  } */
+}
+
+nav.guilds_c48ade,
+#channels {
+  margin-bottom: 0 !important;
+}
+.sidebar_c48ade:after {
+  display: none;
+}
+
+/* BetterFolders fix (delete if you don't use) */
+/* .visual-refresh [style$="grid-area: betterFoldersSidebar;"]~section.panels_c48ade {
+left: calc(var(--custom-guild-list-width)*2);
+width: calc(100% - var(--custom-guild-list-width)*2) !important;
+} */
